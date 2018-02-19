@@ -1,6 +1,7 @@
 import { Children, Component, createElement } from 'react'
+import { IOptions } from './types'
 
-function createProvider({ name, context }) {
+function createProvider({ name, context }: IOptions) {
   class Provider extends Component {
     public getChildContext() {
       const ctx = {}

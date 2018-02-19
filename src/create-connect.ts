@@ -1,6 +1,7 @@
 import * as React from 'react'
+import { IOptions } from './types'
 
-function createConnect({ name, context }) {
+function createConnect({ name, context }: IOptions) {
   return wrappedComponent => {
     class Connect extends React.Component {
       public render() {
