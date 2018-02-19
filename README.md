@@ -16,9 +16,9 @@ npm i react-context-utilities
 
 ### Initializing
 
-Both creating a `provider` and a `connect` function is straight-forward.
+Creating a `provider` and a `connect` function is straight-forward.
 
-`createProvider` expects an object with a valid `contextType` ([documentation](https://reactjs.org/docs/context.html)).
+Both the `createProvider` and the `createConnect` functions expects an object with a valid `contextType` ([documentation](https://reactjs.org/docs/context.html)) and a optional `name` property. The `name` property is used for naming but has sane defaults.
 
 ```Javascript
 import { createProvider, createConnect } from 'react-context-utilities'
