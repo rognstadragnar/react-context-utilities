@@ -5,8 +5,10 @@ function createConnect({ name, context }: IOptions) {
   return wrappedComponent => {
     class Connect extends React.Component {
       public render() {
-        const { tracker } = this.context
-        return React.createElement(wrappedComponent, { tracker, ...this.props })
+        return React.createElement(wrappedComponent, {
+          ...this.context,
+          ...this.props
+        })
       }
     }
     // @ts-ignore
