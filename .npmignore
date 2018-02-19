@@ -4,11 +4,3 @@ package-lock.json
 *.log
 .DS_Store
 !**/dist
-!/preact.js
-!/preact.js.map
-!/react.js
-!/react.js.map
-!/utils.js
-!/utils.js.map
-!/picodom.js
-!/picodom.js.map

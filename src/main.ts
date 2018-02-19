@@ -1,6 +1,2 @@
-import { assembleStore } from './lib/assembleStore'
-import { createActions } from './lib/helpers'
-
-const Store = assembleStore(createActions, false)
-
-export { Store }
+export { createConnect } from './create-connect'
+export { createProvider } from './create-provider'
