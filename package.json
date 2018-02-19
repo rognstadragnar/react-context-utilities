@@ -1,5 +1,5 @@
 {
-  "name": "react-create-context",
+  "name": "react-context-utilities",
   "description": "An easy way to create providers and connect functions",
   "author": "Ragnar Rognstad (http://rognstad.me)",
   "repository": "rognstadragnar/react-create-context",

@@ -1,14 +1,18 @@
-# React-create-context
+# React-context-utilities
 
 ## Motivation
 
 Eventhough `context` in React should be used sparingly, there are very real use cases where `context` makes sense.
 
-The `react-redux` pattern with a `Provider`-`connect` relationship is clean and something people are familiar with – even if they have never heard of `context` in `React`.
+The `react-redux` pattern with `Provider`-`connect` relationships is clean and something people are familiar with – even if they have never heard of `context` in `React`.
 
-Setting up `Providers` and `connect` functions can be a bit foreign. More so than I think it has to be. Enter `React-create-context`.
+Setting up `Providers` and `connect` functions can be a bit foreign. More so than I think it has to be. Enter `react-context-utilities`.
 
 ## Usage
+
+```shell
+npm i react-context-utilities
+```
 
 ### Initializing
 
@@ -17,7 +21,7 @@ Both creating a `provider` and a `connect` function is straight-forward.
 `createProvider` expects an object with a valid `contextType` ([documentation](https://reactjs.org/docs/context.html)).
 
 ```Javascript
-import { createProvider, createConnect } from 'react-create-context'
+import { createProvider, createConnect } from 'react-context-utilities'
 import PropTypes from 'prop-types'
 
 const trackingContext = {
